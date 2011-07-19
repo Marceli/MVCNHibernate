@@ -1,0 +1,66 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Mappings/f:CustomerMapping.cs" caret="0" fromTop="0" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Entities/f:Customer.cs" caret="0" fromTop="0" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Mappings/f:EntityMapping.cs" caret="0" fromTop="0" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Entities/f:Entity.cs" caret="0" fromTop="0" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Mappings/f:MySimpleModelInspector.cs" caret="0" fromTop="0" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Entities/f:OrderItem.cs" caret="0" fromTop="0" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:FactoryProvider.cs" caret="4061" fromTop="27" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Mappings/f:OrderItemMapping.cs" caret="195" fromTop="7" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Entities/f:Order.cs" caret="381" fromTop="15" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Mappings/f:OrderMapping.cs" caret="490" fromTop="16" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="672" fromTop="32" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="174" fromTop="17" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="1341" fromTop="24" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="1341" fromTop="5" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="126" fromTop="18" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="126" fromTop="27" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="597" fromTop="18" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="239" fromTop="8" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:FactoryProvider.cs" caret="369" fromTop="7" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="606" fromTop="14" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="1341" fromTop="1" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="1341" fromTop="20" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="1346" fromTop="15" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="1341" fromTop="18" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:FactoryProvider.cs" caret="4234" fromTop="15" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:FactoryProvider.cs" caret="1272" fromTop="6" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="320" fromTop="12" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="585" fromTop="21" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="533" fromTop="19" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="167" fromTop="7" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="673" fromTop="12" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="1105" fromTop="22" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Entities/f:Order.cs" caret="483" fromTop="17" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Entities/f:Order.cs" caret="566" fromTop="22" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Entities/f:Order.cs" caret="103" fromTop="4" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="57" fromTop="2" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="1322" fromTop="23" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Entities/f:Order.cs" caret="418" fromTop="16" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Entities/f:Order.cs" caret="176" fromTop="7" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/f:NHibernateTest.cs" caret="981" fromTop="9" />
+      <File id="16D278A3-56C2-45E1-8699-3745A6DA1758/d:Mappings/f:OrderMapping.cs" caret="457" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

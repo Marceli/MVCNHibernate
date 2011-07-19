@@ -1,0 +1,4 @@
+﻿name: myProject
+depends: openwrap anchored content
+depends: nhibernate
+depends: nunit
