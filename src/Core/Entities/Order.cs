@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Iesi.Collections.Generic;
 
 namespace Core
 {
 	public class Order : Entity
 	{
 		
-		private ISet<OrderItem> items = new HashedSet<OrderItem>();
+		private IList<OrderItem> items = new List<OrderItem>();
 		public virtual Customer Customer { get; set; }
 		public virtual DateTime EmissionDay { get; set; }
 		public virtual IEnumerable<OrderItem> Items
