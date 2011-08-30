@@ -1,0 +1,17 @@
+obj
+bin
+Temp
+_Resharper.*
+*.csproj.user
+*.resharper.user
+db/*
+*.Resharper.user
+*.resharper
+*.suo
+*.cache
+*~
+*.swp
+src/Core/_ReSharper.Core/*
+src/Core/_ReSharper.Core/*/*
+src/Core/_ReSharper.Core/*/*/*
+
