@@ -12,6 +12,5 @@ db/*
 *~
 *.swp
 src/Core/_ReSharper.Core/*
-src/Core/_ReSharper.Core/*/*
-src/Core/_ReSharper.Core/*/*/*
-
+src/Core/obj/*
+src/Core/bin/*
