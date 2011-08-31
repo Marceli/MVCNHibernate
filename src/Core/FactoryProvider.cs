@@ -6,7 +6,6 @@ using System.Text;
 using Iesi.Collections.Generic;
 using NHibernate;
 using NHibernate.Cfg;
-using NHibernate.Cfg.MappingSchema;
 using NHibernate.Dialect;
 using NHibernate.Mapping;
 using NHibernate.Mapping.ByCode;
@@ -64,7 +63,8 @@ namespace Core
 			                       		map.BatchSize(10);
 			                       	};
 			mapper.AddMappings(Assembly.GetExecutingAssembly().GetExportedTypes());
-			HbmMapping domainMapping = mapper.CompileMappingForAllExplicitlyAddedEntities();
+			var domainMapping = mapper.CompileMappingForEachExplicitlyAddedEntity();
+			domainMapping.WriteAllXmlMapping();
 			var configuration = new Configuration();
 			configuration.DataBaseIntegration(c =>
 			                                  	{
@@ -73,7 +73,10 @@ namespace Core
 			                                  		c.KeywordsAutoImport = Hbm2DDLKeyWords.AutoQuote;
 			                                  		c.SchemaAction = SchemaAutoAction.Create;
 			                                  	});
-			configuration.AddMapping(domainMapping);
+			foreach(var mapping in domainMapping)
+			{
+				configuration.AddMapping(mapping);
+			}
 			configuration.AddAuxiliaryDatabaseObject(CreateHighLowScript(modelInspector, Assembly.GetExecutingAssembly().GetExportedTypes()));
 
 			Factory=configuration.BuildSessionFactory();

@@ -14,3 +14,4 @@ db/*
 src/Core/_ReSharper.Core/*
 src/Core/obj/*
 src/Core/bin/*
+src/Core/*.suo
